@@ -11,7 +11,7 @@ function App() {
   return (
     <ThemeProvider theme={theme}>
       <div className="App">
-        <Router>
+        <Router baseName="/Mjgalle-maria.gallegos.io">
           <Navbar />
 
           <Routes>

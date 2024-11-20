@@ -8,6 +8,7 @@ const StyledLinks = styled.ul`
     list-style: none;
     display: flex;
     gap: 15px;
+    font-weight: bold;
   `}
 `;
 
