@@ -1,20 +1,27 @@
-import logo from './logo.svg';
-import welcomeBack from './assets/icons/welcome-back.png'
-import './App.css';
+import "./App.css";
+import Navbar from "./components/Navbar";
+import Home from "./components/Home";
+import About from "./components/About";
+import Contact from "./components/Contact";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { ThemeProvider } from "styled-components";
+import theme from "./assets/theme";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={welcomeBack} className="welcome-png" alt="Welcome icons created by Freepik - Flaticon" />
-        <p>
-          Welcome to my Personal Website :)
-          <br>
-          </br>
-          Please, <a href="">Enter</a>
-        </p>
-      </header>
-    </div>
+    <ThemeProvider theme={theme}>
+      <div className="App">
+        <Router>
+          <Navbar />
+
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/contact" element={<Contact />} />
+          </Routes>
+        </Router>
+      </div>
+    </ThemeProvider>
   );
 }
 
