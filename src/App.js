@@ -1,22 +1,18 @@
 import logo from './logo.svg';
+import welcomeBack from './assets/icons/welcome-back.png'
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src={welcomeBack} className="welcome-png" alt="Welcome icons created by Freepik - Flaticon" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Welcome to my Personal Website :)
+          <br>
+          </br>
+          Please, <a href="">Enter</a>
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
       </header>
     </div>
   );
