@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/Mjgalle-maria.gallegos.io/static/css/main.b9c03651.css",
-    "main.js": "/Mjgalle-maria.gallegos.io/static/js/main.0bc3417b.js",
+    "main.js": "/Mjgalle-maria.gallegos.io/static/js/main.4b26c5b1.js",
     "static/js/453.ad6eb26e.chunk.js": "/Mjgalle-maria.gallegos.io/static/js/453.ad6eb26e.chunk.js",
     "static/media/welcome-back.png": "/Mjgalle-maria.gallegos.io/static/media/welcome-back.8e94269ca15ad82adc69.png",
     "index.html": "/Mjgalle-maria.gallegos.io/index.html",
     "main.b9c03651.css.map": "/Mjgalle-maria.gallegos.io/static/css/main.b9c03651.css.map",
-    "main.0bc3417b.js.map": "/Mjgalle-maria.gallegos.io/static/js/main.0bc3417b.js.map",
+    "main.4b26c5b1.js.map": "/Mjgalle-maria.gallegos.io/static/js/main.4b26c5b1.js.map",
     "453.ad6eb26e.chunk.js.map": "/Mjgalle-maria.gallegos.io/static/js/453.ad6eb26e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b9c03651.css",
-    "static/js/main.0bc3417b.js"
+    "static/js/main.4b26c5b1.js"
   ]
 }
