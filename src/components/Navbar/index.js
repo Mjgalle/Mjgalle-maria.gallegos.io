@@ -9,12 +9,16 @@ const StyledLinks = styled.ul`
     display: flex;
     gap: 15px;
     font-weight: bold;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
   `}
 `;
 
 const Navbar = () => {
   return (
-    <nav style={{ padding: "10px", backgroundColor: "#f0f0f0" }}>
+    <nav>
       <StyledLinks>
         <li>
           <Link to="/">Home</Link>
@@ -24,6 +28,9 @@ const Navbar = () => {
         </li>
         <li>
           <Link to="/contact">Contact</Link>
+        </li>
+        <li>
+          <Link to="/blog">Blog</Link>
         </li>
       </StyledLinks>
     </nav>
