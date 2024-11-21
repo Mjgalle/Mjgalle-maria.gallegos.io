@@ -1,6 +1,7 @@
 import React from "react";
 import welcomeBack from "../../assets/icons/welcome-back.png";
 import { StyledWrapper } from "../styledComponents";
+import fewdLogo from "../../assets/icons/fewdLOGO.png";
 
 const Home = () => {
   return (
