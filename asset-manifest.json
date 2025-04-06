@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/Mjgalle-maria.gallegos.io/static/css/main.73bdc289.css",
-    "main.js": "/Mjgalle-maria.gallegos.io/static/js/main.c097e615.js",
+    "main.css": "/Mjgalle-maria.gallegos.io/static/css/main.cc7b3843.css",
+    "main.js": "/Mjgalle-maria.gallegos.io/static/js/main.a188487f.js",
     "static/js/453.ad6eb26e.chunk.js": "/Mjgalle-maria.gallegos.io/static/js/453.ad6eb26e.chunk.js",
     "static/media/letter-m.png": "/Mjgalle-maria.gallegos.io/static/media/letter-m.1b3945e107e555ad3906.png",
     "static/media/letter-g.png": "/Mjgalle-maria.gallegos.io/static/media/letter-g.c53bd1afbbfe50f2fe3f.png",
     "static/media/welcome-back.png": "/Mjgalle-maria.gallegos.io/static/media/welcome-back.8e94269ca15ad82adc69.png",
     "static/media/maria-click-noise.m4a": "/Mjgalle-maria.gallegos.io/static/media/maria-click-noise.cd2bdd068700bbe24192.m4a",
     "index.html": "/Mjgalle-maria.gallegos.io/index.html",
-    "main.73bdc289.css.map": "/Mjgalle-maria.gallegos.io/static/css/main.73bdc289.css.map",
-    "main.c097e615.js.map": "/Mjgalle-maria.gallegos.io/static/js/main.c097e615.js.map",
+    "main.cc7b3843.css.map": "/Mjgalle-maria.gallegos.io/static/css/main.cc7b3843.css.map",
+    "main.a188487f.js.map": "/Mjgalle-maria.gallegos.io/static/js/main.a188487f.js.map",
     "453.ad6eb26e.chunk.js.map": "/Mjgalle-maria.gallegos.io/static/js/453.ad6eb26e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.73bdc289.css",
-    "static/js/main.c097e615.js"
+    "static/css/main.cc7b3843.css",
+    "static/js/main.a188487f.js"
   ]
 }
