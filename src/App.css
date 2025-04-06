@@ -8,19 +8,16 @@
   height: 40vmin;
   pointer-events: none;
 }
-
-body.dark-mode {
-  background: #333;
-  color: #fff;
-}
-
 .dark-mode {
   background: #333;
   color: #fff;
 }
 body.dark-mode {
   background-color: #444;
-  color: #ffb6c1;
+  color: #ffffff;
+}
+.dark-mode a {
+  color: #b4b0eb;
 }
 
 @media (prefers-reduced-motion: no-preference) {

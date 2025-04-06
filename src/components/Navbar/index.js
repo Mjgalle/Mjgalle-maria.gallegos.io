@@ -7,6 +7,7 @@ import LetterM from "../../assets/icons/letter-m.png";
 import LetterG from "../../assets/icons/letter-g.png";
 import { useMediaQuery } from "../../assets/hooks/useMediaQuery";
 import { animated, useSpring } from "@react-spring/web";
+import ClickSound from "../../assets/sounds/maria-click-noise.m4a";
 
 const StyledMobileMenu = styled(animated.div)`
   display: none;
@@ -78,8 +79,12 @@ const Navbar = () => {
   const handleMouseLeave = () => setHovered(false);
 
   const handleOnClick = () => {
-    setTheme((prevState) => (prevState === "light" ? "dark" : "light"));
-    document.body.classList.toggle("dark-mode");
+    var sound = document.getElementById("clickSound");
+    sound.play();
+    setTimeout(() => {
+      setTheme((prevState) => (prevState === "light" ? "dark" : "light"));
+      document.body.classList.toggle("dark-mode");
+    }, 600);
   };
 
   return (
@@ -103,10 +108,13 @@ const Navbar = () => {
         </li>
       </StyledLinks>
       <StyledThemeIcon>
+        <audio id="clickSound">
+          <source src={ClickSound} type="audio/mpeg" />
+        </audio>
         <img
           onClick={() => handleOnClick()}
           src={theme === "light" ? LightBulb : Bulb}
-          alt="Theme Icon"
+          alt="Click here to toggle from light to dark mode."
         />
       </StyledThemeIcon>
       <StyledMobileMenu
