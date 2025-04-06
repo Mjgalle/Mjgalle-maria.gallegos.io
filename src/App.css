@@ -20,6 +20,14 @@ body.dark-mode {
   color: #b4b0eb;
 }
 
+.dark-mode p {
+  color: #ffffff;
+}
+
+.dark-mode .content-wrapper {
+  background-color: #ffffff00;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
