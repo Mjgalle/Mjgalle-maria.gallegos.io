@@ -1,0 +1,10 @@
+ANIMATED ELEMENTS:
+What are they?
+The basis of react-spring depends on two things, SpringValues & animated components. Let's explore the latter. An animated component receives Spring Values through the style prop and updates the element without causing a React render. It works because it is a Higher-Order component (HOC) assigned to a dictionary of elements depending on the target you've selected  thus being able to pass the props you desire for your application but also containing the logic to interpolate the Spring Values from the hook you've used. 
+
+ANIMATING ELEMENTS
+The animated component can be imported from any of our targets. However, an animated component is specific to the target because it uses the native elements of said target. These native elements are elements that are understood by the react0reconciler of choice: e.g. @react-three/fiber is a reconciler for three.js elements. Therefor, any element that the reconciler understands can be animated.
+
+If you're using a CSS-in-JS library to style your components, you'll typically have access to a styled function. Just like composing components you can compose your animated element with the styled function.
+
+Sometimes it's impossible to animate an element directly because it comes from another library. Because animated is a Higher Order Component, we can simply wrap our components with it, assuming the component you're wrapping passes to the style prop to the native element. 

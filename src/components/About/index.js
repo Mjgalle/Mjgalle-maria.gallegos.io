@@ -1,6 +1,6 @@
 import React from "react";
 import { StyledWrapper } from "../styledComponents";
-import { useMediaQuery } from "../hooks/useMediaQuery";
+import { useMediaQuery } from "../../assets/hooks/useMediaQuery";
 
 const About = () => {
   const isMobile = useMediaQuery("(max-width: 768px)");

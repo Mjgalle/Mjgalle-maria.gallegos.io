@@ -9,6 +9,20 @@
   pointer-events: none;
 }
 
+body.dark-mode {
+  background: #333;
+  color: #fff;
+}
+
+.dark-mode {
+  background: #333;
+  color: #fff;
+}
+body.dark-mode {
+  background-color: #444;
+  color: #ffb6c1;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;

@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import { StyledWrapper } from "../styledComponents";
 import BlogTopics from "../../assets/data/blog-topics.json";
-import { useMediaQuery } from "../hooks/useMediaQuery";
+import { useMediaQuery } from "../../assets/hooks/useMediaQuery";
 import { Link } from "react-router-dom";
 import ScrollToHashElement from "../ScrollToHashEnhancement";
 import { useSpring } from "@react-spring/web";
