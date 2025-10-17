@@ -1,6 +1,11 @@
-import React, { useState } from "react";
+// Libraries.
+
+import { useState } from "react";
 import { Link } from "react-router-dom";
 import styled from "styled-components";
+
+// Dependencies.
+
 import LightBulb from "../../assets/icons/lightbulb-on.png";
 import Bulb from "../../assets/icons/bulb.png";
 import LetterM from "../../assets/icons/letter-m.png";
@@ -105,6 +110,10 @@ const Navbar = () => {
         </li>
         <li>
           <Link to="/blog">Blog</Link>
+        </li>
+
+        <li>
+          <Link to="/animation">Animations!!</Link>
         </li>
       </StyledLinks>
       <StyledThemeIcon>
