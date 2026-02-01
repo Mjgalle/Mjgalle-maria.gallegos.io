@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="system">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Maria — Senior Front-End Engineer</title>
+    <link rel="stylesheet" href="assets/styles.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+    <script src="assets/app.js" defer></script>
+
+    <script>
+      (function () {
+        try {
+          const saved = localStorage.getItem("theme");
+          if (saved) document.documentElement.setAttribute("data-theme", saved);
+        } catch {}
+      })();
+    </script>
+  </head>
+
+  <body>
+    <div class="container">
+      <header class="site-header">
+        <div class="kicker-container">
+          <div class="kicker">
+            <div class="kicker-animation-wrapper">
+              <span>Maria</span>
+              <span aria-hidden="true">•</span>
+              <span>Senior Front-End Engineer</span>
+              <span aria-hidden="true">•</span>
+              <span>Columbus, OH</span>
+            </div>
+          </div>
+        </div>
+
+        <button
+          class="theme-toggle"
+          type="button"
+          data-theme-toggle
+          aria-label="Toggle theme"
+        >
+          <audio
+            id="play-sound"
+            src="../static/assets/sounds/maria-click-noise.m4a"
+            preload="auto"
+          ></audio>
+          <div>
+            <span aria-hidden="true">☀️</span>
+            <span class="theme-toggle__text">Light</span>
+          </div>
+          <div>
+            <span class="current-theme-text">Current theme:</span>
+            <span class="current-theme"></span>
+          </div>
+        </button>
+
+        <div class="hero-content">
+          <h1 class="hero">
+            <span class="bold">Senior Front-End Engineer</span> building calm,
+            intentional, user-focused web experiences.
+          </h1>
+
+          <p class="subhero">
+            I build accessible, responsive interfaces with clean HTML, CSS, and
+            JavaScript — with a focus on maintainability, details, and great UX.
+          </p>
+        </div>
+
+        <div class="hero-actions">
+          <a class="button primary" href="mailto:youremail@example.com"
+            >Let’s connect</a
+          >
+        </div>
+      </header>
+
+      <main class="grid">
+        <section class="card" id="about">
+          <h2>About</h2>
+          <p>
+            I’m Maria, a Senior Front-End Web Developer focused on building
+            reliable, well-crafted user interfaces. I enjoy working where design
+            and engineering meet — turning systems into experiences that feel
+            great to use.
+          </p>
+
+          <p>
+            I care about accessibility, performance, and long-term
+            maintainability, and I’m always looking for clean, scalable
+            patterns.
+          </p>
+
+          <div class="tags" aria-label="Core skills">
+            <span class="tag">HTML</span>
+            <span class="tag">CSS</span>
+            <span class="tag">JavaScript</span>
+            <span class="tag">Accessibility</span>
+            <span class="tag">UI Architecture</span>
+            <span class="tag">Design Systems</span>
+          </div>
+        </section>
+
+        <section class="card" id="work">
+          <h2>What I Do</h2>
+          <ul class="list">
+            <li>Build accessible, responsive UI</li>
+            <li>Translate design systems into scalable patterns</li>
+            <li>Write clean, maintainable front-end code</li>
+            <li>Partner with design + product to ship polished experiences</li>
+            <li>Improve existing codebases with a long-term mindset</li>
+          </ul>
+
+          <hr />
+
+          <h2>Beyond the Code</h2>
+          <p>
+            Outside of work, I’m usually hiking, reading, taking photos, or
+            spending time with people I love.
+          </p>
+        </section>
+      </main>
+
+      <footer class="site-footer">
+        <p>
+          Want to chat about roles, collaboration, or front-end craftsmanship?
+          <a href="mailto:youremail@example.com">Email me</a>.
+        </p>
+        <div>
+          <span aria-hidden="true">•</span>
+          <a href="" target="_blank" rel="noopener noreferrer">GitHub</a>
+          <span aria-hidden="true">•</span>
+          <a href="" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
